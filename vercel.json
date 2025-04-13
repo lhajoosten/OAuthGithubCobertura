@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "routes": [
+        {
+            "src": "/api/(.*)",
+            "dest": "/api/$1"
+        }
+    ],
+    "env": {
+        "FRONTEND_URL": "@frontend_url",
+        "GITHUB_CLIENT_ID": "@github_client_id",
+        "GITHUB_CLIENT_SECRET": "@github_client_secret"
+    }
+}
