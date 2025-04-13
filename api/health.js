@@ -1,4 +1,8 @@
 // api/health.js
+import { inject } from "@vercel/analytics";
+
+inject();
+
 module.exports = (req, res) => {
   // Set CORS headers
   res.setHeader("Access-Control-Allow-Credentials", true);

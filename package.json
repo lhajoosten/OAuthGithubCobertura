@@ -14,6 +14,7 @@
   "author": "Luc Joosten",
   "license": "MIT",
   "dependencies": {
+    "@vercel/analytics": "^1.5.0",
     "axios": "^1.8.4",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",

@@ -1,4 +1,8 @@
 // api/auth/github/refresh.js
+import { inject } from "@vercel/analytics";
+
+inject();
+
 require("dotenv").config();
 const axios = require("axios");
 
